@@ -107,7 +107,7 @@ function ChooseWeed() {
                                     return (
                                         <Col xs={6} lg={3} key={index}>
                                             <div className="mt-32">
-                                                <ProductCard ={id} img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
+                                                <ProductCard id={id} img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
                                             </div>
                                         </Col>
                                     )
