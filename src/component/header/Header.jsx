@@ -168,7 +168,7 @@ function Header() {
                                         <path d="M3 17H21" stroke="#062A09" strokeWidth="1.5" stroke-linecap="round"/>
                                     </svg>
                                 </button>
-                                <a href="#" className="brand-logo">
+                                <a href="/" className="brand-logo">
                                     <img src={logo} alt="logo" className="h-xs-28"/>
                                 </a>
                             </div>
@@ -181,7 +181,7 @@ function Header() {
                                 </form>
                             </div> 
                             <div className="user-block order-lg-3 pt-md-14 pb-md-14">
-                                <UserAccount href="#">Your Account</UserAccount>
+                                <UserAccount href="/">Your Account</UserAccount>
                                 <BagButton>
                                     <img src={bagIcon} alt="Bag-icon" />
                                     <CartCount>{itemCount}</CartCount>
@@ -201,31 +201,31 @@ function Header() {
                     </div>
                     <NavbarNav className='d-xl-flex justify-content-center align-items-center'>
                         <li>
-                            <Navlink href="#">Shop All <img src={arrowDown} alt="arrow-down" /></Navlink>
+                            <Navlink href="/">Shop All <img src={arrowDown} alt="arrow-down" /></Navlink>
                         </li>
                         <li>
-                            <Navlink href="#">Flower</Navlink>
+                            <Navlink href="/">Flower</Navlink>
                         </li>
                         <li>
-                            <Navlink href="#">Edibles</Navlink>
+                            <Navlink href="/">Edibles</Navlink>
                         </li>
                         <li>
-                            <Navlink href="#">Concentrates <img src={arrowDown} alt="arrow-down" /></Navlink>
+                            <Navlink href="/">Concentrates <img src={arrowDown} alt="arrow-down" /></Navlink>
                         </li>
                         <li>
-                            <Navlink href="#">Mushrooms</Navlink>
+                            <Navlink href="/">Mushrooms</Navlink>
                         </li>
                         <li>
-                            <Navlink href="#">Promotions/Bundles <img src={arrowDown} alt="arrow-down" /></Navlink>
+                            <Navlink href="/">Promotions/Bundles <img src={arrowDown} alt="arrow-down" /></Navlink>
                         </li>
                         <li>
-                            <Navlink href="#">Support <img src={arrowDown} alt="arrow-down" /></Navlink>
+                            <Navlink href="/">Support <img src={arrowDown} alt="arrow-down" /></Navlink>
                         </li>
                         <li>
-                            <Navlink href="#">Rewards</Navlink>
+                            <Navlink href="/">Rewards</Navlink>
                         </li>
                         <li>
-                            <Navlink href="#">Blog</Navlink>
+                            <Navlink href="/">Blog</Navlink>
                         </li>
 
                     </NavbarNav>
