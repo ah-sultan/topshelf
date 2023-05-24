@@ -64,7 +64,7 @@ function RecentAdd() {
                                     return (
                                         <Col key={index} lg={3} xs={6}>
                                             <div className="mt-32">
-                                                <ProductCard img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
+                                                <ProductCard id={id} img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
                                             </div>
                                         </Col>
                                     )
