@@ -43,7 +43,7 @@ function TestimonialCard(props) {
                 <CardText>
                     <RatingIcons>
                         {
-                            Array(5)..fill()map((_, index) => {
+                            Array(5).fill()map((_, index) => {
                                 return <img src={star} key={index} alt="star" />
                             })
                         }
