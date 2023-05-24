@@ -106,7 +106,7 @@ function BestWeed() {
 
                                                     return (
                                                         < SwiperSlide key={index} >
-                                                            <ProductCard img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
+                                                            <ProductCard id={id} img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
                                                         </SwiperSlide>
                                                     )
                                                 })
@@ -147,7 +147,7 @@ function BestWeed() {
 
                                                     return (
                                                         < SwiperSlide key={index} >
-                                                            <ProductCard img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
+                                                            <ProductCard id={id} img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
                                                         </SwiperSlide>
                                                     )
                                                 })
@@ -187,7 +187,7 @@ function BestWeed() {
                                                     const { id, img, cetagory, title, rating, reviews, label, price, discount, unit, stock } = product
 
                                                     return (
-                                                        < SwiperSlide key={index} >
+                                                        < SwiperSlide id={id} key={index} >
                                                             <ProductCard img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
                                                         </SwiperSlide>
                                                     )
