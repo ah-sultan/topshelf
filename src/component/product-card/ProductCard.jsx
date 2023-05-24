@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import Product from '../Product'
 import productBg from '../../asserts/img/product-card/product-bg.png'
 import starIcon from '../../asserts/img/product-card/star.svg'
 

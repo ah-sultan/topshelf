@@ -66,48 +66,48 @@ function Footer() {
                                     <h5 className="text--white fs-20 fw-medium lh-150 mb-24">QUICK LINK</h5>
                                     <Col md={6}>
                                         <ul className="contact-nav p-0">
-                                            <li><a href="#">Track Your Order</a></li>
-                                            <li><a href="#">Shop All</a></li>
-                                            <li><a href="#">Flower</a></li>
-                                            <li><a href="#">Edibles</a></li>
-                                            <li><a href="#">Concentrates</a></li>
+                                            <li><a href="/">Track Your Order</a></li>
+                                            <li><a href="/">Shop All</a></li>
+                                            <li><a href="/">Flower</a></li>
+                                            <li><a href="/">Edibles</a></li>
+                                            <li><a href="/">Concentrates</a></li>
                                         </ul>
                                     </Col>
                                     <Col md={6}>
                                         <ul className="contact-nav p-0">
-                                            <li><a href="#">Mushrooms</a></li>
-                                            <li><a href="#">Promotions / Bundles</a></li>
-                                            <li><a href="#">Support</a></li>
-                                            <li><a href="#">Reward</a></li>
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="#">Shipping Faq</a></li>
+                                            <li><a href="/">Mushrooms</a></li>
+                                            <li><a href="/">Promotions / Bundles</a></li>
+                                            <li><a href="/">Support</a></li>
+                                            <li><a href="/">Reward</a></li>
+                                            <li><a href="/">Blog</a></li>
+                                            <li><a href="/">Shipping Faq</a></li>
                                         </ul>
                                     </Col>
                                 </Row>
                                 <Row>
                                     <Col xl={12}>
                                         <h5 className="text--white fs-20 fw-medium lh-150 mb-24">QUICK LINK</h5>
-                                        <Email href="#">info@topshelfbc.cc</Email>
+                                        <Email href="/">info@topshelfbc.cc</Email>
                                     </Col>
                                 </Row>
                                 <Row>
                                     <h5 className="text--white fs-20 fw-medium lh-150 mb-24 mt-40">MORE</h5>
                                     <Col md={6}>
                                         <ul className="contact-nav p-0">
-                                            <li><a href="#">Buy weed online in Canada</a></li>
-                                            <li><a href="#">Buy weed online in Prince Edward Island</a></li>
-                                            <li><a href="#">Buy weed online in New Brunswick</a></li>
-                                            <li><a href="#">Buy weed online in Northwest Territories</a></li>
-                                            <li><a href="#">Buy weed online in Saskatchewan</a></li>
+                                            <li><a href="/">Buy weed online in Canada</a></li>
+                                            <li><a href="/">Buy weed online in Prince Edward Island</a></li>
+                                            <li><a href="/">Buy weed online in New Brunswick</a></li>
+                                            <li><a href="/">Buy weed online in Northwest Territories</a></li>
+                                            <li><a href="/">Buy weed online in Saskatchewan</a></li>
                                         </ul>
                                     </Col>
                                     <Col md={6}>
                                         <ul className="contact-nav p-0">
-                                            <li ><a href="#">Buy weed online in Manitoba</a></li>
-                                            <li><a href="#">Buy weed online in Quitebec</a></li>
-                                            <li><a href="#">Buy weed online in British Columbia</a></li>
-                                            <li><a href="#">Buy weed online in Ontario</a></li>
-                                            <li><a href="#">Buy weed online in Alberta</a></li>
+                                            <li ><a href="/">Buy weed online in Manitoba</a></li>
+                                            <li><a href="/">Buy weed online in Quitebec</a></li>
+                                            <li><a href="/">Buy weed online in British Columbia</a></li>
+                                            <li><a href="/">Buy weed online in Ontario</a></li>
+                                            <li><a href="/">Buy weed online in Alberta</a></li>
                                         </ul>
                                     </Col>
                                 </Row>
@@ -124,9 +124,9 @@ function Footer() {
                     </div>
                     <Copyright>
                         <ul className="p-0 d-flex order-lg-last">
-                            <li><a href="#" className="footer-text fs-14 mr-32 mr-xs-14">Out Of Stock</a></li>
-                            <li><a href="#" className="footer-text fs-14 mr-32 mr-xs-14">Privacy Policy</a></li>
-                            <li><a href="#" className="footer-text fs-14">Terms & Conditions</a></li>
+                            <li><a href="/" className="footer-text fs-14 mr-32 mr-xs-14">Out Of Stock</a></li>
+                            <li><a href="/" className="footer-text fs-14 mr-32 mr-xs-14">Privacy Policy</a></li>
+                            <li><a href="/" className="footer-text fs-14">Terms & Conditions</a></li>
                         </ul>
                         <p className="footer-text fs-16 order-lg-first">© 2022 Top Shelf BC. All Rights Reserved. </p>
                     </Copyright>

@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react'
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react';
+import React, { useEffect, useState } from 'react'
+import { Swiper, SwiperSlide,  } from 'swiper/react';
 import { Navigation } from 'swiper';
 
 import { Container, Row, Col } from 'react-bootstrap'

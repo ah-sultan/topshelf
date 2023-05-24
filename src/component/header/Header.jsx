@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react'
+import React, {useState} from 'react'
 import { Container } from 'react-bootstrap'
 import styled from 'styled-components'
 

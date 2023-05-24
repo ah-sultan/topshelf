@@ -17,7 +17,7 @@ function Education() {
                 <Container className="gx-0">
                     <HeaderSection className='d-flex align-items-center justify-content-between pb-32'>
                         <h2 className="section-title fs-xs-24">WEED EDUCATION</h2>
-                        <a className="action--primary fs-xs-14" href="#">Show All</a>
+                        <a className="action--primary fs-xs-14" href="/">Show All</a>
                     </HeaderSection>
                     <div className="card-section">
                         <Row className="gx-32px">

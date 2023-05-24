@@ -100,7 +100,7 @@ function Testimonial() {
 
                                                 return (
                                                     <SwiperSlide key={index}>
-                                                        <TestimonialCard clientImg={img} clientAlt={name} name={name} postText={post} publishDate={postDate} rating={rating} />
+                                                        <TestimonialCard id={id} clientImg={img} clientAlt={name} name={name} postText={post} publishDate={postDate} rating={rating} />
                                                     </SwiperSlide>
                                                 )
                                             })

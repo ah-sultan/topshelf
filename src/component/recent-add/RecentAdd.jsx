@@ -35,7 +35,7 @@ function RecentAdd() {
                             <button type="button" onClick={() => setActive('recent-concentrate')} className={`btn--outline ${active === 'recent-concentrate' ? 'active' : undefined}`}>Concentrate</button>
                             <button type="button" onClick={() => setActive('recent-edibles')} className={`btn--outline ${active === 'recent-edibles' ? 'active' : undefined}`}>Edibles</button>
                             <button type="button" onClick={() => setActive('recent-shop-all')} className={`btn--outline ${active === 'recent-shop-all' ? 'active' : undefined}`}>Shop All Weed</button>
-                            <a href="#" className="action--primary ms-auto">Show All</a>
+                            <a href="/" className="action--primary ms-auto">Show All</a>
                         </FilterButton>
                         </div>
                     </FilterSection>
@@ -47,7 +47,7 @@ function RecentAdd() {
                                     return (
                                         <Col key={index} lg={3} xs={6}>
                                             <div className="mt-32">
-                                                <ProductCard img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
+                                                <ProductCard id={id} img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
                                             </div>
                                         </Col>
                                     )
@@ -81,7 +81,7 @@ function RecentAdd() {
                                     return (
                                         <Col key={index} lg={3} xs={6}>
                                             <div className="mt-32">
-                                                <ProductCard img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
+                                                <ProductCard id={id} img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
                                             </div>
                                         </Col>
                                     )
@@ -98,7 +98,7 @@ function RecentAdd() {
                                     return (
                                         <Col key={index} lg={3} xs={6}>
                                             <div className="mt-32">
-                                                <ProductCard img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
+                                                <ProductCard id={id} img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
                                             </div>
                                         </Col>
                                     )
@@ -115,7 +115,7 @@ function RecentAdd() {
                                     return (
                                         <Col key={index} lg={3} xs={6}>
                                             <div className="mt-32">
-                                                <ProductCard img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
+                                                <ProductCard id={id} img={img} cetagory={cetagory} title={title} rating={rating} reviews={reviews} label={label} price={price} discount={discount} unit={unit} stock={stock} />
                                             </div>
                                         </Col>
                                     )

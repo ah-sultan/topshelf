@@ -55,7 +55,7 @@ function TestimonialCard(props) {
             default:
                 setIcon([starDark, starDark, starDark, starDark, starDark])
         }
-    }, [])
+    }, [icon])
 
     return (
         <>
