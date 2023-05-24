@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { memo } from 'react'
 import styled from 'styled-components'
 
 import star from '../../asserts/img/testimonial/star.svg'
-import starDark from '../../asserts/img/testimonial/star-dark.svg'
 
 
 const Card = styled.div`
@@ -32,30 +31,7 @@ const ReviewDate = styled.p`
 `
 
 function TestimonialCard(props) {
-    const [icon, setIcon] = useState([])
 
-    useEffect(() => {
-
-        switch (props.rating) {
-            case 1:
-                setIcon([star, starDark, starDark, starDark, starDark]);
-                break
-            case 2:
-                setIcon([star, star, starDark, starDark, starDark])
-                break
-            case 3:
-                setIcon([star, star, star, starDark, starDark])
-                break
-            case 4:
-                setIcon([star, star, star, star, starDark])
-                break
-            case 5:
-                setIcon([star, star, star, star, star])
-                break
-            default:
-                setIcon([starDark, starDark, starDark, starDark, starDark])
-        }
-    }, [icon])
 
     return (
         <>
@@ -67,8 +43,8 @@ function TestimonialCard(props) {
                 <CardText>
                     <RatingIcons>
                         {
-                            icon.map((icons, index) => {
-                                return <img src={icons} key={index} alt="star" />
+                            Array(5)..fill()map((_, index) => {
+                                return <img src={star} key={index} alt="star" />
                             })
                         }
                     </RatingIcons>
