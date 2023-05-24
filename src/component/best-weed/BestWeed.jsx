@@ -74,7 +74,7 @@ function BestWeed() {
                                     <img src={cardIcon} alt="card Icon" />
                                     <h4 className="fs-20 text--white fw-medium lh-150 mt-24">Shop our Best Sellers</h4>
                                     <CardText className="text-white fw-normal lh-150 mt-8 mb-20 fs-14">Lorem ipsum dolor sit amet consectetur. Ullamcorper ipsum varius lorem blandit lectus magnis feugiat. </CardText>
-                                    <a href="/ className="action--primary">View All</a>
+                                    <a href="/" className="action--primary">View All</a>
                                 </Card>
                             </Col>
                             <Col xs={12} md={6} lg={8} className="mt-sm-32">
