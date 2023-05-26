@@ -8,7 +8,7 @@ function Notification() {
   const [countDown, setCountDown] = useState('')
 
   useEffect(() => {
-    var countDownDate = new Date("May 5, 2027 15:37:25").getTime();
+    var countDownDate = new Date("May 5, 2024 15:37:25").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function () {
@@ -40,7 +40,7 @@ function Notification() {
     <>
       <div className=" notification text-center bg--secondary text-white pt-8 pb-8">
         <p>LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout. 
-        <span>{countDown}</span>
+        <span className="pl-8">`  `{countDown}</span>
 </p>
       </div>
     </>
