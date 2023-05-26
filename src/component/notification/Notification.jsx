@@ -26,8 +26,10 @@ function Notification() {
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
       // Display the result in the element with id="demo"
-      setCountDown(days + "d " + hours + "h "
-        + minutes + "m " + seconds + "s ")
+      setCountDown(days + "d " +  hours + "h "
+        + minutes + " m " + seconds + "s ")
+      
+       setCountDown(`${days}d  :  ${hours}h  :  ${minutes}m  :  ${seconds}s`)
 
       // If the count down is finished, write some text
       if (distance < 0) {
@@ -39,7 +41,7 @@ function Notification() {
   return (
     <>
       <div className=" notification text-center bg--secondary text-white pt-8 pb-8">
-        <p>LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout. : 
+        <p>LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout: 
         <span> {countDown}</span>
 </p>
       </div>
