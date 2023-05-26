@@ -39,8 +39,8 @@ function Notification() {
   return (
     <>
       <div className=" notification text-center bg--secondary text-white pt-8 pb-8">
-        <p>LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout. | 
-        <span>{countDown}</span>
+        <p>LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout. : 
+        <span> {countDown}</span>
 </p>
       </div>
     </>
